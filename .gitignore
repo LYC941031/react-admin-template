@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dist-ssr
+
+# local env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# claude local overrides (个人覆盖，不进仓库)
+.claude/settings.local.json
